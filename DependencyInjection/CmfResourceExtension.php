@@ -104,7 +104,7 @@ class CmfResourceExtension extends Extension
             throw new InvalidConfigurationException('The composite repository type requires a "mounts" option to be set.');
         }
 
-        $definition = new Definition('Symfony\Cmf\Component\Resource\Repository\CompositeRepository');
+        $definition = new Definition('Puli\Repository\CompositeRepository');
 
         foreach ($options['mounts'] as $mount) {
             if (!isset($mount['mountpoint']) || !isset($mount['repository'])) {

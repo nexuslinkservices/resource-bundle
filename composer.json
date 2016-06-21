@@ -14,7 +14,7 @@
         "php": "^5.5.9|^7.0",
         "symfony/framework-bundle": "^2.7|3.*",
         "symfony/options-resolver": "^2.7|3.*",
-        "symfony-cmf/resource": "^1.0",
+        "symfony-cmf/resource": "dev-phpcr_odm_descriptor",
         "puli/repository": "@beta"
     },
     "require-dev": {
